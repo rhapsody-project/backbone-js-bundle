@@ -1,0 +1,27 @@
+{
+    "name": "rhapsody-project/backbone-js-bundle",
+    "type": "symfony-bundle",
+    "description": "BackboneJS bundle for Symfony 2",
+    "keywords": ["backbone", "backbonejs", "jquery", "javascript", "underscore", "underscorejs"],
+    "homepage": "https://github.com/rhapsody-project/backbone-js-bundle",
+    "version": "1.2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sean Quinn"
+        },
+        {
+            "name": "Rhapsody Project",
+            "homepage": "https://github.com/rhapsody-project/backbone-js-bundle/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+		"rhapsody-project/jquery-bundle": "*"
+    },
+    "autoload": {
+        "psr-0": { "Rhapsody\\BackboneJsBundle": "" }
+    },
+    "target-dir": "Rhapsody/BackboneJsBundle",
+    "minimum-stability": "dev"
+}
